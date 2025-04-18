@@ -1,0 +1,29 @@
+/* Custom styles for homepage2 logo visibility */
+.homepage2-body .header-area.homepage2 .site-logo a img {
+    filter: invert(1);
+}
+
+/* Logo size adjustments */
+.header-area .site-logo a img {
+    width: 225px;
+    height: auto;
+    display: block;
+}
+
+/* Remove invert filter for homepage1 header since nav is black */
+.homepage1-body .header-area.homepage1 .site-logo a img {
+    filter: none;
+}
+
+.footer-logo-content .logo-content img {
+    width: 200px;
+    height: auto;
+}
+
+/* Mobile header logo adjustments */
+.mobile-header .mobile-logo img,
+.mobile-sidebar .logos img {
+    width: 200px;
+    height: auto;
+    filter: none;
+} 
